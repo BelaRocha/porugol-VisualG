@@ -1,26 +1,23 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+
 // Data atual  : 05/12/2022
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 notas: vetor[0..2] de inteiro
 media: real
 notata: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 para notata de 0 ate 2 faca
-     escreva("escreva 3 notas e veja sua média")
+     escreva("escreva 3 notas e veja sua mÃ©dia")
      escreval
      leia(notas[notata])
 fimpara
 
-escreval("a média de:", notas[0], " ", notas[1], " ", notas[2], " é: ")
+escreval("a mÃ©dia de:", notas[0], " ", notas[1], " ", notas[2], " Ã©: ")
 escreval
 
 media <-((notas[0] + notas[1] + notas[2]) / 3 )
